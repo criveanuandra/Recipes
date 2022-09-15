@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retete</title>
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+  <h1>Reteta</h1>
+  <input type="text" id="input-ingredient" placeholder="e.g eggs">
+  <button id="adauga-ingredient" onclick="onAddIngredient()">Adauga ingredient</button>
+  <ul id="container-ingrediente">
+  </ul>
+
+  <button id="sterge-ultimul-ingredient" onclick="onRemoveLastIngredient()">
+    Sterge ultimul ingredient
+  </button>
+  <button id="join-ingredients" onclick="onJoinIngredients()">Join ingredients</button>
+  <div id="result"></div>
+
+  <!-- <img src="./bg.jpg" width="100px" height="100px"> -->
+  <script src="main.js"></script>
+</body>
+</html>
